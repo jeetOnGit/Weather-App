@@ -13,7 +13,7 @@ const [currectTab, setCurrectTab] = useState('overall');
 const [futureWeather, setfutureWeather] = useState();
 const [todayWeather, setTodayWeather] = useState();
 const [userInp, setUserInp] = useState();
-let apiKey = "67b08a1086ca4b4bc0e7c19aa589ef91";
+
 
 
 
