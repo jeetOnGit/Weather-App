@@ -1,0 +1,66 @@
+.box {
+  background-color: #24d8fe;
+  width: 50vw;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
+  
+}
+.box::after{
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 12px;
+  left: 50%;
+  border-radius: 6px;
+  background-color: #007292;
+  bottom: -5px;
+  transform: translate(-50%);
+  z-index: -1;
+
+}
+.navBar {
+  list-style: none;
+  display: flex;
+  border: 1px solid #007292;
+  text-align: center;
+  justify-content: space-between;
+  /* padding: 7px 17px; */
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 150px;
+  overflow: hidden;
+}
+.navBar li button{
+  padding: 6px 10px; 
+  width: 100%;
+
+}
+.navBar li{
+  width: 100%;
+}
+.navBar .active{
+  background-color: #007292;
+  color: #fff;
+
+}
+.navBar li:hover{
+  background-color: #007292;
+  color: #fff;
+}
+
+.searchBox .inpBox{
+    border-radius: 4px;
+    padding: 5px 4px;
+    background-color: white;
+}
+.searchBox .inpBox:focus{
+  outline: none;
+}
+.searchBox .btn{
+  padding: 4px 13px;
+  background-color: #53aefb;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 3px;
+}

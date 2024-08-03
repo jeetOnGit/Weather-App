@@ -1,0 +1,17 @@
+.list li p{
+  color: #007292;
+  font-weight:500;
+  font-size: 13px;
+  font-variant-caps: all-petite-caps;
+}
+
+.list li h6{
+  color: #fff;
+  font-weight: bold;
+}
+.list li{
+  margin-bottom: 12px;
+}
+.tempList{
+  width: 30%;
+}

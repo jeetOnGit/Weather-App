@@ -1,0 +1,10 @@
+.overallTemp{
+  /* line-height: 8px; */
+  width: 50%;
+}
+.overallTemp h2{
+  color: #007292;
+}
+.overallTemp h1{
+  color: white;
+}

@@ -1,0 +1,34 @@
+.daysWrapper li{
+  color: #fff;
+  /* line-height: 25px; */
+  background-color: #00d3ff;
+  width: 100%;
+}
+.daysWrapper li:last-child{
+  border-right: none;
+
+}
+.day{
+  border-right: 1px solid #ffffff2f;
+  border-top:1px solid #ffffff2f;
+  padding: 1rem 0rem;
+}
+.dayDetail{
+  padding: 0 2px;
+}
+/* .dayDetail li{
+  margin-bottom: 8px;
+} */
+.dayDetail img{
+  margin: 0 auto;
+}
+.dayDegree{
+  font-size: 21px !important;
+  font-weight: 700;
+}
+.weatherType{
+  color: #007292;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+}
